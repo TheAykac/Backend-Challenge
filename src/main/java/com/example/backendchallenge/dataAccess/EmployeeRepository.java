@@ -1,0 +1,7 @@
+package com.example.backendchallenge.dataAccess;
+
+import com.example.backendchallenge.entities.concretes.Employee;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EmployeeRepository extends JpaRepository<Employee,Integer> {
+}
