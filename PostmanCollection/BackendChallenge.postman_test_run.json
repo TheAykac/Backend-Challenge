@@ -1,0 +1,238 @@
+{
+	"id": "949e304c-c3fd-4798-8a6e-21ae12c6d581",
+	"name": "BackendChallenge",
+	"timestamp": "2023-01-12T20:14:54.938Z",
+	"collection_id": "23036185-ff2ec398-753f-4885-b88b-cda912328ca5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "31a1c7c8-e425-4dfa-a554-d44b705de25a",
+			"name": "Add",
+			"url": "http://localhost:8080/api/company/add",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "78a80edf-efbc-4d2e-b0eb-a0821ba317c6",
+			"name": "Update",
+			"url": "http://localhost:8080/api/company/update",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "993d8138-89f8-42e1-b8af-750e08977a0c",
+			"name": "GetById",
+			"url": "http://localhost:8080/api/company/getById/a7ccd2ba-ccb4-46e4-8f7e-2af82270b476",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c8b46118-b54b-4cc2-ab10-a83ccd341145",
+			"name": "Delete",
+			"url": "http://localhost:8080/api/company/delete/a7ccd2ba-ccb4-46e4-8f7e-2af82270b476",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "74f213e6-66b5-4c81-b20e-c1159c4349a7",
+			"name": "GetAll",
+			"url": "http://localhost:8080/api/company/getAll",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e6448017-9c9c-4c2f-91c1-95b40f9794d3",
+			"name": "Add",
+			"url": "http://localhost:8080/api/employee/add",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "323bb4c7-3fc7-4df0-9378-7300bdfdee48",
+			"name": "Update",
+			"url": "http://localhost:8080/api/employee/update",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cc085b36-12e5-4ccf-b0b9-496811561848",
+			"name": "GetById",
+			"url": "http://localhost:8080/api/employee/getById/0b881da7-9ea9-4026-935f-a1b390d35707",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "afcef4eb-7027-4f17-ba34-236a1839b2a7",
+			"name": "Delete",
+			"url": "http://localhost:8080/api/employee/delete/0b881da7-9ea9-4026-935f-a1b390d35707",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "70258e98-3075-4e27-8782-d637e17473e8",
+			"name": "GetAll",
+			"url": "http://localhost:8080/api/employee/getAll",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 56,
+	"collection": {
+		"requests": [
+			{
+				"id": "31a1c7c8-e425-4dfa-a554-d44b705de25a",
+				"method": "POST"
+			},
+			{
+				"id": "78a80edf-efbc-4d2e-b0eb-a0821ba317c6",
+				"method": "PUT"
+			},
+			{
+				"id": "993d8138-89f8-42e1-b8af-750e08977a0c",
+				"method": "GET"
+			},
+			{
+				"id": "c8b46118-b54b-4cc2-ab10-a83ccd341145",
+				"method": "DELETE"
+			},
+			{
+				"id": "74f213e6-66b5-4c81-b20e-c1159c4349a7",
+				"method": "GET"
+			},
+			{
+				"id": "e6448017-9c9c-4c2f-91c1-95b40f9794d3",
+				"method": "POST"
+			},
+			{
+				"id": "323bb4c7-3fc7-4df0-9378-7300bdfdee48",
+				"method": "PUT"
+			},
+			{
+				"id": "cc085b36-12e5-4ccf-b0b9-496811561848",
+				"method": "GET"
+			},
+			{
+				"id": "afcef4eb-7027-4f17-ba34-236a1839b2a7",
+				"method": "DELETE"
+			},
+			{
+				"id": "70258e98-3075-4e27-8782-d637e17473e8",
+				"method": "GET"
+			}
+		]
+	}
+}
